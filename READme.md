@@ -50,3 +50,13 @@ lorsque vous voulez collaborer sur git et créer une nouvelle feature dans votre
 
 **\*sinon vous pouvez aussi aider votre team sur une feature il faudra alors dans sa sous-branch pour lui apporter de l'aide sur une feature complexe.
 pour ne pas avoir de conflit dans une sous-branch vous devrez alors crée une branch qui découlera de la branch de votre collègue. /!\***
+
+## Mettre à jour une sous branch
+
+Pour pouvoir mettre à jour une sous-branch par rapport à votre master local ou distante ou par rapport à une simple branch distante il va falloire taper la commande
+
+> **git rebase NomDeVotreBranch sur laquelle vous voulez rebaser votre sous-branch**
+
+sinon si vous voulez rebaser une branch local par rapport à une branch distante il va falloire utiliser cette commande.
+
+> **git rabse AliasIndiquantVotreRepoDistant(ex: origin)/NomDeVotreBranchDistante**
